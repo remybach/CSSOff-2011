@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Triple Dare | The web&rsquo;s messiest challenge!</title>
+	<meta name="description" content="Triple Dare | The web's messiest challenge!">
+	<meta name="author" content="">
+	<meta name="keywords" content="competition,knucklelodeon,challenge,messy challenge">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css' />
+
+	<link rel="stylesheet" type="text/css" href="css/boilerplate.css" />
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/960_12_col.css" media="screen" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/min_960_12_col.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.selectBox.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+	
+	<!--[if (gt IE 8)|!(IE)]><!--> 
+	<link rel="stylesheet" type="text/css" href="css/lt959.css" media="screen and (max-width:959px)" />
+	<link rel="stylesheet" type="text/css" href="css/lt720.css" media="screen and (max-width:720px)" />
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width:480px)" />
+	<!--<![endif]-->
+
+	<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+	<script src="js/jquery.superlabels.min.js" type="text/javascript"></script>
+	<script src="js/jquery.selectBox.min.js" type="text/javascript"></script>
+	<script src="js/scripts.js" type="text/javascript"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav>
+		<ul class="container_12">
+			<li><a href="#obstacles">Obstacles</a></li>
+			<li><a href="#prizes">Prizes</a></li>
+			<li><a href="#contestant">Be a Contestant</a></li>
+			<li><a href="#top">Back to Top</a></li>
+		</ul>
+	</nav>
+	
+	<header id="top">
+		<h1>Triple Dare</h1>
+		<h2>The web&rsquo;s messiest challenge!</h2>
+		<h6>Airing Thursdays on the Knucklelodeon Network<sup>TM</sup></h6>
+	</header>
+	
+	<section id="obstacles">
+		<div class="container_12">
+			<h3 class="grid_12 alpha omega">Obstacles</h3>
+			<!--
+				Note: I would've loved to use a <dl> here, but I'd need to wrap
+				the <dt> and <dd> in something with a class of .grid_3 to get the
+				layout right which in this case doesn't work.
+			-->
+			<ul class="grid_6 alpha">
+				<li class="tank grid_3 alpha current" data-obstacle="tank">
+					<p class="title">The Tank</p>
+					<p class="desc">A pool full of ice cream</p>
+				</li>
+				
+				<li class="sundae grid_3 omega" data-obstacle="sundae">
+					<p class="title">Sundae Slide</p>
+					<p class="desc">12ft slide covered in cream</p>
+				</li>
+				
+				<li class="hamster grid_3 alpha" data-obstacle="hamster">
+					<p class="title">Human Hamster Wheel</p>
+					<p class="desc">How fast can you run?</p>
+				</li>
+				
+				<li class="hatch grid_3 omega" data-obstacle="hatch">
+					<p class="title">Down the Hatch</p>
+					<p class="desc">6ft slide covered in gunk!</p>
+				</li>
+				
+				<li class="pick grid_3 alpha" data-obstacle="pick">
+					<p class="title">Pick it!</p>
+					<p class="desc">Can you get a grip?</p>
+				</li>
+				
+				<li class="wringer grid_3 omega" data-obstacle="wringer">
+					<p class="title">The Wringer</p>
+					<p class="desc">Are you as flexible as taffy?</p>
+				</li>
+			</ul>
+			<aside class="grid_6 omega tank">
+				<div class="splat">
+					<h3>The Tank</h3>
+					<h4>A pool full of ice cream</h4>
+				</div>
+			</aside>
+		</div>
+	</section>
+	
+	<section id="prizes">
+		<div class="container_12">
+			<h3 class="grid_12 alpha omega">Prizes</h3>
+			<div class="grid_6 alpha">
+				<h5 class="space">A trip to space camp!</h5>
+				<h5 class="keyboard">A casio rapman keyboard!</h5>
+			</div>
+			<div class="grid_6 omega">
+				<h5 class="skateboard">A nash skateboard!</h5>
+				<h5 class="tv">A 13 inch TV/VCR combo!</h5>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contestant">
+		<div class="container_12">
+			<h3 class="grid_12 alpha omega">Be a contestant</h3>
+			
+			<div class="grid_5 alpha">
+				<form action="/" method="get" accept-charset="utf-8">
+					<ul>
+						<li>
+							<label for="name">Your name</label>
+							<input type="text" name="name" tabindex="1" value="" id="name" />
+						</li>
+						<li>
+							<label for="email">Email address</label>
+							<input type="text" name="email" tabindex="2" value="" id="email" />
+						</li>
+						<li>
+							<label for="team-name">team name</label>
+							<input type="text" name="team-name" tabindex="3" value="" id="team-name" />
+						</li>
+						<li class="team">
+							<select name="team-color" tabindex="4" id="team-color">
+								<option>Team Color</option>
+								<option value="red">red</option>
+								<option value="green">green</option>
+								<option value="blue">blue</option>
+							</select>
+						</li>
+						<li class="gender">
+							<select name="gender" tabindex="5" id="gender">
+								<option>Gender</option>
+								<option value="male">male</option>
+								<option value="female">female</option>
+							</select>
+						</li>
+						<li class="photo">
+							<label for="photo">Profile photo url</label>
+							<input type="text" name="photo" tabindex="6" value="" id="photo" />
+						</li>
+					</ul>
+					<input type="button" name="submit" tabindex="7" value="Submit entry!" id="submit" />
+				</form>
+			</div>
+			<div class="grid_6 push_1 omega">
+				<div class="clock">60</div>
+				<h3>The clock is ticking!</h3>
+			</div>
+		</div>
+	</section>
+	
+	<footer class="container_12">
+		<h6>The Knucklelodeon Network</h6>
+		<p class="grid_6 alpha">
+			The Knucklelodeon Network is not affiliated<br />
+			with Nickelodeon, nor is it an actual<br />
+			television network
+		</p>
+		<p class="grid_6 omega">
+			Triple Dare contestants consent to potential<br />
+			physical bodily harm, like being buried<br />
+			alive by a giant waffle.
+		</p>
+		<div class="clear"></div>
+		<h6>Visit Our Studios</h6>
+		<address class="adr">
+			<p class="grid_6 alpha">
+				<span class="street-address">11 Slime Time Way</span><br />
+				<span class="locality">Sacramento</span>, <span class="region">CA</span> <span class="postal-code">94203</span>
+			</p>
+			<p class="grid_6 omega">
+				<span class="street-address">329 Gunk Road</span><br />
+				<span class="locality">Jacksonville</span>, <span class="region">FL</span> <span class="postal-code">32099</span>
+			</p>
+			<div class="clear"></div>
+		</address>
+
+		<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="cc">This design is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</a>
+	</footer>
+</body>
+</html>

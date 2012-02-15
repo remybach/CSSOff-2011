@@ -1,0 +1,35 @@
+header h1 { left:-100px; position:relative; }
+h2 { font-size:48px; }
+
+section h3 { line-height:1.2em; }
+section#obstacles li { height:265px; margin:10px 4%; width:92%; }
+
+section#prizes .grid_6 { margin-left:0; }
+section#prizes h5 { background-size:85%; }
+section#prizes h5.space { padding-top:98%; }
+section#prizes h5.keyboard { padding-top:45%; }
+section#prizes h5.skateboard { padding-top:57%; }
+section#prizes h5.tv { padding-top:100%; }
+
+section#contestant .grid_5, section#contestant .grid_6 { width:100%; }
+section#contestant .grid_5, section#contestant .grid_5 ul { margin:0; }
+section#contestant .grid_6.omega { margin:0; }
+
+form ul { padding:0; }
+form li { margin:10px 2%; }
+form li, .team, .gender { width:100%; }
+form input, .team .selectBox-dropdown, .gender .selectBox-dropdown { width:86%; }
+.team, .gender { margin:0 2% 10px; }
+
+footer.container_12:before { left:35%; }
+footer p.grid_6 { float:none; text-align:center; width:auto; }
+footer p.grid_6.omega { margin-top:0; }
+
+/* The finishing touches for portrait */
+@media screen and (max-width:320px) {
+	.team select, .gender select { width:95%; }
+	form input, .team .selectBox-dropdown,
+	.gender .selectBox-dropdown { width:85%; }
+
+	footer.container_12:before { left:29%; }
+}

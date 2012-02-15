@@ -1,0 +1,28 @@
+/* redefine a select few grid things here */
+.grid_5, .grid_6 { float:left; margin-left:10px; margin-right:10px; width:46%; }
+
+header#top { padding:50px 0 20px; }
+
+section h3 { padding-left:10px; text-align:center; }
+
+section#obstacles,
+section#prizes,
+section#contestant { padding-bottom:40px; }
+section#obstacles h3:before { display:none; }
+section#prizes h3:before { display:none; }
+section#contestant h3:before { display:none; }
+
+section#obstacles li { overflow:hidden; }
+
+section#contestant .grid_6.omega { padding-bottom:60px; }
+section#contestant .omega h3 { margin:20px auto 0; }
+
+form ul { padding:0 10px; }
+form input { width:92%; }
+.team select, .gender select { width:100%; }
+.team .selectBox-dropdown { width:86%; }
+.gender .selectBox-dropdown { width:79%; }
+.team { width:60%; }
+.gender { margin-right:0; width:36%; }
+
+footer.container_12::before { left:41%; }

@@ -1,0 +1,63 @@
+.grid_5, .grid_6 { float:left; margin-left:10px; margin-right:10px; width:46%; }
+
+nav ul.container_12 { display:none; width:auto; }
+nav li { float:none; margin:0; text-align:center; }
+nav a { display:block; padding:2px 0; }
+nav:after {
+	color:#FFF;
+	content:'menu';
+	display:block;
+	font-family:'Open Sans', sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	padding:5px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+nav:after:hover { text-decoration:underline; }
+
+section#obstacles .grid_6.alpha { margin:0; width:100%; }
+section#obstacles .grid_6.omega { display:none; }
+section#obstacles li {
+	cursor:default;
+	float:left;
+	height:300px;
+	margin:10px 2%;
+	width:46%;
+}
+section#obstacles li.current,
+section#obstacles li:hover { background:url('../images/green.jpg'); }
+section#obstacles p { padding:0 5px; text-shadow:3px 3px rgba(0, 0, 0, 0.2); }
+section#obstacles li .title { font-size:20px; margin-bottom:5px; }
+section#obstacles li .desc { color:#FFF; display:block; font-family:KomikaTitle; font-size:14px; text-align:center; }
+section#obstacles li.current .title, section#obstacles li:hover .title { color:#FFF; }
+
+section#prizes .grid_6 { float:none; width:100%; }
+section#prizes h5:hover { background-position:center 10px; }
+section#prizes h5.space { margin-bottom:40px; }
+section#prizes h5.skateboard { margin-bottom:30px; }
+
+section#contestant .grid_5.alpha { padding-bottom:40px; }
+section#contestant .clock {
+	background:url('../images/clock_mobile.jpg');
+	font-size:115px;
+	height:121px;
+	padding:55px 80px 80px 59px;
+	text-shadow:8px 8px #000;
+	width:161px;
+}
+section#contestant .omega h3 { padding:0 25px; }
+
+.team, .gender { width:100%; }
+.team .selectBox-dropdown, .gender .selectBox-dropdown { width:91%; }
+input#submit {
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+input#submit:hover { padding:60px 0 51px; text-shadow:3px 4px rgba(0, 0, 0, 0.2); }
+input#submit:active { padding:62px 0 49px; text-shadow:1px 1px rgba(0, 0, 0, 0.2); }
+
+footer.container_12::before { left:39%; }
+footer { padding-top:50px; }
